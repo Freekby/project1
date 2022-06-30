@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    word-break: normal;
+}
+
+h3 {
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    font-size: 125px;
+}
+
+h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #333333;
+    font-size: 75px;
+}
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    color: #333333;
+    font-size: 42px;
+}
+
+.page1 {
+    background-color: #2f2f2f;
+    height: 795px;
+    min-width: 793px;
+    background-image: url(/styles/images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ 6.png);
+    background-size: 603px 100%;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.page1 img {
+    margin-left: 30%;
+}
+
+.page1 .text {
+    position: absolute;
+    color: #e3e3e3;
+    font-size: 30px;
+    left: 45%;
+    right: 10%;
+    top: 25%;
+    bottom: 0px;
+}
+
+.top {
+    position: absolute;
+    min-width: 793px;
+    width: 95%;
+    height: max-content;
+    padding: 20px;
+    z-index: 1;
+
+}
+
+.top button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #f1f1f1;
+
+    height: 100%;
+    border: 0px;
+    padding: 10px;
+    float: right;
+    background-color: #00000000;
+
+    transition: 0.6s;
+}
+
+.top button:hover {
+    background-color: #1e1e1e97;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page2 {
+    height: 796px;
+    min-width: 793px;
+}
+
+.page2>.text {
+    min-width: 793px;
+    max-width: 50%;
+    color: #666666;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.page2 .cards .card {
+    color: #333333;
+    font-size: 17px;
+    height: 325px;
+    width: 245px;
+    display: inline-block;
+}
+
+.page2 .cards{
+    text-align: justify;
+    margin: 5%;
+} 
+
+.cards::after{
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.page2 .cards .card img {
+    border-radius: 140px;
+}
