@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 .text {
     font-family: 'Montserrat', sans-serif;
     word-break: normal;
@@ -268,7 +273,7 @@ h1 {
     position: relative;
 }
 
-.page6 .text{
+.page6 .text {
     text-align: center;
     font-size: 30px;
     position: absolute;
@@ -277,4 +282,50 @@ h1 {
     top: 50%;
     bottom: 0;
     transform: translate(0, -30%);
+}
+
+.page7 {
+    width: 100%;
+    height: 700px;
+    background-color: #f1f1f1;
+}
+
+.page7 form {
+    height: 65px;
+    width: 55%;
+    top: 10%;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.page7 .text{
+    padding-top: 17%;
+    width: 50%;
+    padding-left: 27%;
+    text-align: center;
+}
+
+.page7 form input{
+    height: 65px;
+    width: 70%;
+    border-radius: 0px;
+    padding: 0;
+    border: 0;
+    background-color: #e3e3e3;
+    font-size: 30px;
+}
+
+.page7 form #sumbit{
+    height: 65px;
+    width: 30%;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    border: 0;
+    background-color: #ffc200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
 }
